@@ -5,7 +5,7 @@ terraform {
           version = "0.6.0"
       }
       hashicups = {
-          source = "hashicorp/time"
+          source = "example/edu/hashicups"
       }
     }
 }
