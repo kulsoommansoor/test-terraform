@@ -6,6 +6,7 @@ terraform {
       }
       hashicups = {
           source = "example/edu/hashicups"
+          version = "0.3.2"
       }
     }
 }
