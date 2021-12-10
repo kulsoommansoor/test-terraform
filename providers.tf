@@ -2,11 +2,13 @@ terraform {
     required_providers {
       time = {
           source = "hashicorp/time"
-          version = "0.6.0"
       }
       hashicups = {
           source = "example/edu/hashicups"
-          version = "0.3.3"
+          version = "0.3.2"
+      }
+      fake = {
+          source = "notreal"
       }
     }
 }
